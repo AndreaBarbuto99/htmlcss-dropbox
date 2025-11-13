@@ -201,6 +201,10 @@ h1 {
     margin-bottom: 50px;
 }
 
+.button-p {
+    padding-top: 20px;
+}
+
 .banner-link {
     padding-top: 50px;
     padding-left: 35px;
@@ -288,6 +292,10 @@ h1 {
 }
 
 /* CARD SECTION */
+.description-section {
+    margin-bottom: 200px;
+}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -310,4 +318,57 @@ h1 {
 
 .card-image {
     width: 100%;
+}
+
+/* LINK SECTION RULES*/
+
+.link-section {
+    margin-bottom: 200px;
+}
+
+
+.link-container {
+    width: 60%;
+    padding-left: 300px;
+    padding-bottom: 50px;
+}
+
+.link-title {
+    font-size: 40px;
+}
+
+.link-anch {
+    margin-left: 300px;
+}
+
+
+/* FOOTER SECTION RULES */
+
+.footer-section {
+    background-color: black;
+    color: white;
+}
+
+.footer-links {
+    padding: 100px 100px 0px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.no-bullet {
+    list-style: none;
+}
+
+.footer-spacing {
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.language {
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 10%;
+    border-top: 1px solid;
+    padding-top: 50px;
 }
