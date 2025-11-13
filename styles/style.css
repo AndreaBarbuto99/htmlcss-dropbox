@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 li {
@@ -19,6 +19,15 @@ h1 {
     font-weight: 900;
 }
 
+a {
+    text-decoration: none;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #0061fe;
+    color: white;
+}
 
 
 
@@ -61,20 +70,68 @@ h1 {
     padding-right: 20px;
 }
 
-.access-button {
+.margin-button {
     margin-right: 30px;
-    padding: 10px 15px;
-    background-color: #0061fe;
-    color: white;
 }
+
+/* HERO RULES */
+
 
 .title-container {
     margin: 0 auto;
     width: 60%;
 }
 
+.title-box {
+    width: 900px;
+    margin: 0 auto;
+}
+
 .hero-section {
-    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.hero-description {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
+}
+
+.description-text {
+    width: 17%;
+    line-height: 20px;
+}
+
+.description-image {
+    width: 40%;
+}
+
+.jumbo-image {
+    width: 700px;
+}
+
+.hero-section {
+    background-color: #b4d0e6;
+}
+
+.text-inside {
+    padding-bottom: 50px;
+}
+
+.cancel {
+    display: block;
+    padding-top: 50px;
+}
+
+.arrow {
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+    /* INFO SECTION RULES */
+
+.info-title {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 200px;
 }
