@@ -10,16 +10,12 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-li {
-    list-style: none;
-}
-
 h1 {
     font-size: 60px;
     font-weight: 900;
 }
 
-a {
+.no-underline {
     text-decoration: none;
 }
 
@@ -29,9 +25,21 @@ a {
     color: white;
 }
 
+.transparent {
+    color: #afb4be;
+}
 
+.list-spacing {
+    padding-bottom: 20px;
+}
 
+.white {
+    color: white;
+}
 
+.blue {
+    color: #2171fe;
+}
 
 /* GENERAL RULES */
 
@@ -125,13 +133,94 @@ a {
 
 .arrow {
     padding-top: 40px;
+    padding-bottom: 20px;
     font-size: 50px;
 }
 
-    /* INFO SECTION RULES */
+/* INFO SECTION RULES */
 
 .info-title {
     width: 50%;
     margin: 0 auto;
     padding-top: 200px;
+    font-size: 30px;
+}
+
+.checkbox-container {
+    width: 50%;
+    margin: 0px auto 50px auto;
+    padding-top: 30px;
+}
+
+.checkbox {
+    padding: 30px;
+}
+
+.banner-container {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    gap: 40px;
+}
+
+
+.banner {
+    width: calc((100%/3) - (20px/3));
+    margin-top: 50px;
+    border: 1px solid #ebebed;
+}
+
+.banner-user {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ebebed;
+}
+
+.banner-title {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.banner-spacing {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.banner-list {
+    padding-top: 50px;
+    padding-left: 10px;
+    max-height: 220px;
+}
+
+.banner-button {
+    text-align: center;
+    padding: 50px 10px 10px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.banner-link {
+    padding-top: 50px;
+    padding-left: 35px;
+}
+
+.h5-list {
+    padding-top: 100px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+
+.ul-spacing {
+    margin-bottom: 100px;
+}
+
+.grey-line {
+    border-top: 1px solid #e8e8ea;
+    width: 20%;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 35px;
 }
