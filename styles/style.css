@@ -5,3 +5,76 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+
+
+
+
+
+/* GENERAL RULES */
+
+/* HEADER RULES */
+.header-main {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-list {
+    display: flex;
+}
+
+.info-list {
+    display: flex;
+}
+
+.logo-image {
+    padding-right: 50px;
+}
+
+.header-spacing {
+    padding: 10px;
+    display: inline;
+}
+
+.login-list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.access-list {
+    padding-right: 20px;
+}
+
+.access-button {
+    margin-right: 30px;
+    padding: 10px 15px;
+    background-color: #0061fe;
+    color: white;
+}
+
+.title-container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.hero-section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
